@@ -1,0 +1,5 @@
+<% if Setting.plugin_redmine_update_issue_extended.try(:[], 'extend_desc') == '1' %>
+  <% content_for :header_tags do %>
+    <%= javascript_include_tag 'extend_description', :plugin => 'redmine_update_issue_extended' %>
+  <% end %>
+<% end %>

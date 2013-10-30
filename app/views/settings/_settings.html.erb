@@ -1,0 +1,6 @@
+<%= check_box_tag "settings[extend_desc]", '1', Setting.plugin_redmine_update_issue_extended.try(:[], 'extend_desc') == '1', id: :extend_desc %></td>
+<%= label_tag :extend_desc, t('settings_caption') %></td>
+
+<% content_for :header_tags do %>
+  <%= javascript_include_tag 'settings_page', :plugin => 'redmine_update_issue_extended' %>
+<% end %>
