@@ -17,3 +17,7 @@ Developed & tested on Redmine 2.3.3.
 To configure plugin visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name.
 
 There you can enable/disable additional text showing up next to the pencil icon link when editing existing issue.
+
+# License
+Redmine update issue extended plugin is an Open Source project covered by the GNU General Public
+License version 2. See LICENSE file.
